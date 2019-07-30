@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.4/redux.js"></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <form action="">
-        
+      <h1>Form</h1>
+      <input type="text" name="name" value="" placeholder="name" id="name" />
+      <input type="text" name="email" value="" placeholder="email" id="email" />
+      <input type="number" name="age" value="" placeholder="age" id="age" />
+      <button type="submit">submit</button>
     </form>
-</body>
+    <h3>your name: <span id="namein"></span></h3>
+    <h3>your email: <span id="emailin"></span></h3>
+    <h3>your age: <span id="agein"></span></h3>
+  </body>
+  <script src="app.js"></script>
 </html>
