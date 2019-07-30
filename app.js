@@ -39,5 +39,9 @@ username.addEventListener("keyup", (event)=>{
     store.dispatch({type:"name", data:event.target})
 })
 
+email.addEventListener("keyup", (event)=>{
+    store.dispatch({type:"email", data:event.target})
+})
+
 
 
