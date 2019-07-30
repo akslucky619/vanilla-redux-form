@@ -39,12 +39,5 @@ username.addEventListener("keyup", (event)=>{
     store.dispatch({type:"name", data:event.target})
 })
 
-email.addEventListener("keyup", (event)=>{
-    store.dispatch({type:"email", data:event.target})
-})
 
-age.addEventListener("keyup", (event)=>{
-    store.dispatch({type:"age", data:event.target})
-})
 
-submit.addEventListener("click",handleSubmit)
